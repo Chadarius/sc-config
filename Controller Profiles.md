@@ -31,21 +31,28 @@ Contains Folders with Star Citizen profiles, Joystick Gremlin profiles, and joys
   * Star Citizen Console command:
     * pp_rebindkeys Dual-LogiExtrm
   * [Dual-LogiExtrm_joystick-gremlin.xml](https://raw.githubusercontent.com/Chadarius/sc-config/Profiles/Dual-LogiExtrm/Dual-LogiExtrm_joystick-gremlin.xml)
+![Dual-LogiExtrm](https://raw.githubusercontent.com/Chadarius/sc-config/main/Profiles/Dual-LogiExtrm/Dual-LogiExtrm_layout%20-%201.png)
 
-### Dual-LogiExtrm-X56
-  * [Dual-LogiExtrm-X56_exported.xml](https://raw.githubusercontent.com/Chadarius/sc-config/Profiles/Dual-LogiExtrm-X56/Dual-LogiExtrm-X56_exported.xml)
+### DualLogiExtrm-X56-Thrtl
+  * [DualLogiExtrm-X56-Thrtl_exported.xml](https://raw.githubusercontent.com/Chadarius/sc-config/Profiles/DualLogiExtrm-X56-Thrtl/DualLogiExtrm-X56-Thrtl_exported.xml)
   * Star Citizen Console command:
-    * pp_rebindkeys Dual-LogiExtrm-X56
-  * [Dual-LogiExtrm_joystick-gremlin.xml](https://raw.githubusercontent.com/Chadarius/sc-config/Profiles/Dual-LogiExtrm-X56/Dual-LogiExtrm-X56_joystick-gremlin.xml)
+    * pp_rebindkeys DualLogiExtrm-X56-Thrtl
+  * [DualLogiExtrm-X56-Thrtl_joystick-gremlin.xml](https://raw.githubusercontent.com/Chadarius/sc-config/Profiles/DualLogiExtrm-X56-Thrtl/DualLogiExtrm-X56-Thrtl_joystick-gremlin.xml)
+  ![DualLogiExtrm-X56-Thrtl - 1](https://raw.githubusercontent.com/Chadarius/sc-config/main/Profiles/DualLogiExtrm-X56-Thrtl/DualLogiExtrm-X56-Thrtl%20-%201.png)
+  ![DualLogiExtrm-X56-Thrtl - 2](https://raw.githubusercontent.com/Chadarius/sc-config/main/Profiles/DualLogiExtrm-X56-Thrtl/DualLogiExtrm-X56-Thrtl%20-%202.png)
 
 ### LogiExtrm
   * [LogiExtrm_exported.xml](https://raw.githubusercontent.com/Chadarius/sc-config/Profiles/LogiExtrm/LogiExtrm_exported.xml)
   * Star Citizen Console command:
     * pp_rebindkeys LogiExtrm
   * [LogiExtrm_joystick-gremlin.xml](https://raw.githubusercontent.com/Chadarius/sc-config/Profiles/LogiExtrm/LogiExtrm_joystick-gremlin.xml)
+  ![LogiExtrm - 1](https://github.com/Chadarius/sc-config/blob/main/Profiles/LogiExtrm/LogiExtrm%20-%201.png?raw=true)
 
 ### x55-x56-LogiExtrm
   * [x55-x56-LogiExtrm_exported.xml](https://raw.githubusercontent.com/Chadarius/sc-config/Profiles/x55-x56-LogiExtrm/x55-x56-LogiExtrm_exported.xml)
   * Star Citizen Console command:
     * pp_rebindkeys x55-x56-LogiExtrm
   * [x55-x56-LogiExtrm_joystick-gremlin.xml](https://raw.githubusercontent.com/Chadarius/sc-config/Profiles/x55-x56-LogiExtrm/x55-x56-LogiExtrm_joystick-gremlin.xml)
+  ![x55-x56-LogiExtrm - 1](https://github.com/Chadarius/sc-config/blob/main/Profiles/x55-x56-LogiExtrm/x55-x56-LogiExtrm%20-%201.png?raw=true)
+  ![x55-x56-LogiExtrm - 2](https://github.com/Chadarius/sc-config/blob/main/Profiles/x55-x56-LogiExtrm/x55-x56-LogiExtrm%20-%202.png?raw=true)
+  ![x55-x56-LogiExtrm - 3](https://github.com/Chadarius/sc-config/blob/main/Profiles/x55-x56-LogiExtrm/x55-x56-LogiExtrm%20-%203.png?raw=true)
