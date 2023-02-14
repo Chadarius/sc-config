@@ -19,12 +19,12 @@ Make sure to click the game controller icon on the Gremlin taskbar and that it s
 
 ### Star Citizen Layout
 
-Download and copy [vjoy-dual-logi.xml](https://raw.githubusercontent.com/Chadarius/star-citizen-dual-logi-extreme/main/vjoy-dual-logi.xml) to 
+Download and copy [Dual-LogiExtrm_exported.xml](https://raw.githubusercontent.com/Chadarius/sc-config/main/Profiles/Dual-LogiExtrm/Dual-LogiExtrm_exported.xml) to 
 "C:\Program Files\Roberts Space Industries\StarCitizen\LIVE\USER\Client\0\Controls\Mappings" or wherever your install happens to be. 
 
 In Star Citizen, open the console and cut and paste the following command:
 
-pp_rebindkeys vjoy-dual-logi
+pp_rebindkeys Dual-LogiExtrm_exported.xml
 
 ## Dual Logi Layout
-![dual logi layout](https://github.com/Chadarius/star-citizen-dual-logi-extreme/blob/main/dual%20logi%20layout.png?raw=true)
+![dual logi layout](https://github.com/Chadarius/sc-config/blob/main/Profiles/Dual-LogiExtrm/Dual-LogiExtrm_layout.png?raw=true)

@@ -1,5 +1,5 @@
-<ActionMaps version="1" optionsVersion="2" rebindVersion="2" profileName="dual-logi-x56-20230201">
- <CustomisationUIHeader label="dual-logi-x56-20230201" description="" image="">
+<ActionMaps version="1" optionsVersion="2" rebindVersion="2" profileName="DualLogiExtrm-X56-Thrtl">
+ <CustomisationUIHeader label="DualLogiExtrm-X56-Thrtl" description="" image="">
   <devices>
    <keyboard instance="1"/>
    <mouse instance="1"/>
@@ -28,6 +28,7 @@
  <options type="keyboard" instance="1" Product="Keyboard  {6F1D2B61-D5A0-11CF-BFC7-444553540000}"/>
  <options type="joystick" instance="1" Product="vJoy Device  {BEAD1234-0000-0000-0000-504944564944}">
   <fps_move_longitudinal invert="1"/>
+  <mgv_move invert="0"/>
  </options>
  <options type="joystick" instance="2" Product="vJoy Device  {BEAD1234-0000-0000-0000-504944564944}">
   <fps_move_longitudinal invert="1"/>
@@ -72,6 +73,9 @@
   </action>
  </actionmap>
  <actionmap name="spaceship_view">
+  <action name="v_view_cycle_fwd">
+   <rebind input="js1_button26"/>
+  </action>
   <action name="v_view_pitch">
    <rebind input="js1_ "/>
   </action>
@@ -181,7 +185,7 @@
    <rebind input="js2_button8"/>
   </action>
   <action name="v_yaw">
-   <rebind input="js1_z"/>
+   <rebind input="js1_rotz"/>
   </action>
  </actionmap>
  <actionmap name="spaceship_quantum">
@@ -398,6 +402,12 @@
   <action name="v_horn">
    <rebind input="js1_ "/>
   </action>
+  <action name="v_view_cycle_fwd">
+   <rebind input="js1_button26"/>
+  </action>
+  <action name="v_view_freelook_mode">
+   <rebind input="js1_button26"/>
+  </action>
   <action name="v_view_pitch">
    <rebind input="js1_ "/>
   </action>
@@ -428,7 +438,7 @@
    <rebind input="js1_ "/>
   </action>
   <action name="v_yaw">
-   <rebind input="js1_z"/>
+   <rebind input="js1_rotz"/>
   </action>
  </actionmap>
  <actionmap name="spectator">
