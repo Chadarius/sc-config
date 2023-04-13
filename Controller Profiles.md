@@ -58,8 +58,8 @@ Contains Folders with Star Citizen profiles, Joystick Gremlin profiles, and joys
   ![x55-x56-LogiExtrm - 3](https://github.com/Chadarius/sc-config/blob/main/Profiles/x55-x56-LogiExtrm/x55-x56-LogiExtrm%20-%203.png?raw=true)
 
 ### Dual VKB (Right Premium and Left Omnithrottle)
-  * [dual-vkb_exported.xml](https://raw.githubusercontent.com/Chadarius/sc-config/Profiles/dual-vkb/dual-vkb_exported.xml)
+  * [dual-vkb_exported.xml](https://raw.githubusercontent.com/Chadarius/sc-config/main/Profiles/dual-vkb/dual-vkb_exported.xml)
   * Star Citizen Console command:
     * pp_rebindkeys dual-vkb_exported.xml
-  * [dual-vkb_joystick-gremlin.xml](https://raw.githubusercontent.com/Chadarius/sc-config/Profiles/dual-vkb/dual-vkb_joystick-gremlin.xml)
+  * [dual-vkb_joystick-gremlin.xml](https://raw.githubusercontent.com/Chadarius/sc-config/main/Profiles/dual-vkb/dual-vkb_joystick_gremlin.xml)
   ![dual-vkb](https://github.com/Chadarius/sc-config/blob/main/Profiles/dual-vkb/dual-vkb.png?raw=true)
