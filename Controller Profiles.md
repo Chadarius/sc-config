@@ -31,7 +31,7 @@ Contains Folders with Star Citizen profiles, Joystick Gremlin profiles, and joys
   * Star Citizen Console command:
     * pp_rebindkeys Dual-LogiExtrm_exported.xml
   * [Dual-LogiExtrm_joystick-gremlin.xml](https://raw.githubusercontent.com/Chadarius/sc-config/main/Profiles/Dual-LogiExtrm/Dual-LogiExtrm_joystick-gremlin.xml)
-![Dual-LogiExtrm](https://raw.githubusercontent.com/Chadarius/sc-config/main/Profiles/Dual-LogiExtrm/Dual-LogiExtrm_layout%20-%201.png)
+![Dual-LogiExtrm](https://raw.githubusercontent.com/Chadarius/sc-config/main/Profiles/Dual-LogiExtrm/Dual-LogiExtrm_layout.png)
 
 ### DualLogiExtrm-X56-Thrtl
   * [DualLogiExtrm-X56-Thrtl_exported.xml](https://raw.githubusercontent.com/Chadarius/sc-config/main/Profiles/DualLogiExtrm-X56-Thrtl/DualLogiExtrm-X56-Thrtl_exported.xml)
