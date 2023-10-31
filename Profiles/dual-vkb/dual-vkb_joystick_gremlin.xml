@@ -192,7 +192,9 @@
                 <button description="" id="5">
                     <container type="basic">
                         <action-set>
-                            <remap button="5" vjoy="1"/>
+                            <map-to-keyboard>
+                                <key extended="False" scan-code="78"/>
+                            </map-to-keyboard>
                         </action-set>
                     </container>
                 </button>
@@ -494,7 +496,7 @@
                                     <control-point x="0.72" y="0.504"/>
                                     <control-point x="1.0" y="1.0"/>
                                 </mapping>
-                                <deadzone center-high="0.05" center-low="-0.05" high="0.99" low="-0.99"/>
+                                <deadzone center-high="0.0" center-low="0.0" high="0.99" low="-0.99"/>
                             </response-curve>
                         </action-set>
                     </container>
@@ -513,7 +515,7 @@
                                     <control-point x="0.728" y="0.496"/>
                                     <control-point x="1.0" y="1.0"/>
                                 </mapping>
-                                <deadzone center-high="0.05" center-low="-0.05" high="0.99" low="-0.99"/>
+                                <deadzone center-high="0.05" center-low="0.0" high="0.99" low="-0.99"/>
                             </response-curve>
                         </action-set>
                     </container>

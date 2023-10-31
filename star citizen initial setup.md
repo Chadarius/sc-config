@@ -1,4 +1,4 @@
-# Star Citizen Initial Setup
+# Star Citizen Initial Setup 3.21
 
 ## PC Configuation
 ### Performance Settings
@@ -29,12 +29,17 @@
 ### In-game Config
 #### Game Settings
   * Show Hints – No
+  * Control Hints - No
   * Flight – Gsafe – Defaults On – No
   * Fligth – Gsafe – Disable When Boosting - No
   * Flight – Proximity Assist Defaults On – No 
-  * Enhanced Stick Precision Zone Size – 7.80
-  * Enhanced Stick Precision Damping Curvature – 1.30
+  * Pilot - E.S.P. Zone Size – 8
+  * Pilot - E.S.P. Damping Curvature – 1.30
   * Pilot – Velocity Indicator – Always On
+  * Guns - Fallback Convergence Distance (meters) - 100
+  * Vehicles - Spaceship - Weapons - Gimbal Mode - Default - Fixed
+  * Vehicles - Ground - Weapons - Gimbal Mode - Default - Fixed
+  * Vehicles - Targeting - Enable Auto Zoom On Locked Target - No
   * Pilot – Look Ahead – Enabled – No 
   * Driver – Look Ahead – Enabled - No
   * Turret – Look Ahead – Enabled – No 
@@ -45,7 +50,7 @@
   * Show Neutral/Hostile Contact Nameplate – Yes
   * Show Contact Distance – Yes
   * Emissions HUD – Display Signature Values
-  * Vehicles – Weapons – Default Convergence Distance - 100
+
 #### Graphics
   * Gamma – 50-60
   * Brightness – 50
@@ -55,8 +60,9 @@
   * Quality – Very high
   * Scattered Object Distance – Low/Medium
   * Terrain Tessellation Distance – Low/Medium
+  * Screen Space Shadows - Medium
   * Planet Volumetric Clouds – Medium (or off)
-  * Field of View – 90 
+  * Field of View – 85 
   * Motion Blur – off
   * Vsync – no
   * Sharpening - 0
@@ -69,6 +75,7 @@
   * Ship computer speed volume – 75
   * Simulation announcer volume – 75
   * Ship computer verbosity - Medium
+  * Audio-Driven Camera Shake Strength - 0
   * Play Audio when Game in Background – Yes 
 #### Controls
   * Inversion – Invert controller axes as needed. Can also be controlled in Joystick Gremlin
