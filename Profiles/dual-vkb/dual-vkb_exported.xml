@@ -1,5 +1,5 @@
-<ActionMaps version="1" optionsVersion="2" rebindVersion="2" profileName="dual-vkb-20231031">
- <CustomisationUIHeader label="dual-vkb-20231031" description="" image="">
+<ActionMaps version="1" optionsVersion="2" rebindVersion="2" profileName="dual-vkb-20231226">
+ <CustomisationUIHeader label="dual-vkb-20231226" description="" image="">
   <devices>
    <keyboard instance="1"/>
    <mouse instance="1"/>
@@ -11,6 +11,7 @@
    <category label="@ui_CCSpaceFlight"/>
    <category label="@ui_CCTurrets"/>
    <category label="@ui_CGLightControllerDesc"/>
+   <category label=""/>
    <category label="@ui_CCFPS"/>
    <category label="@ui_CCEVA"/>
    <category label="@ui_CCVehicle"/>
@@ -96,6 +97,7 @@
    <rebind input="js2_button5"/>
   </action>
   <action name="v_ifcs_speed_limiter_reset_scm">
+   <rebind input="kb1_f9"/>
    <rebind input="js2_button23"/>
   </action>
   <action name="v_ifcs_toggle_cruise_control">
@@ -147,6 +149,7 @@
    <rebind input="js2_ "/>
   </action>
   <action name="v_strafe_reset_rel_long">
+   <rebind input="kb1_f10"/>
    <rebind input="js2_button14"/>
   </action>
   <action name="v_strafe_reset_rel_short">
@@ -156,6 +159,7 @@
    <rebind input="js1_ "/>
   </action>
   <action name="v_strafe_set_rel_from_abs_short">
+   <rebind input="kb1_f10"/>
    <rebind input="js2_button14"/>
   </action>
   <action name="v_strafe_up">
@@ -370,11 +374,19 @@
   </action>
  </actionmap>
  <actionmap name="spaceship_power">
+  <action name="v_power_throttle_down">
+   <rebind input="kb1_ "/>
+  </action>
   <action name="v_power_throttle_max">
+   <rebind input="kb1_ "/>
    <rebind input="js2_button11"/>
   </action>
   <action name="v_power_throttle_min">
+   <rebind input="kb1_ "/>
    <rebind input="js2_button13"/>
+  </action>
+  <action name="v_power_throttle_up">
+   <rebind input="kb1_ "/>
   </action>
   <action name="v_power_toggle_shields">
    <rebind input="js1_button27"/>
@@ -389,6 +401,14 @@
  <actionmap name="lights_controller">
   <action name="v_lights">
    <rebind input="js2_button29"/>
+  </action>
+ </actionmap>
+ <actionmap name="stopwatch">
+  <action name="stopwatch_reset">
+   <rebind input="kb1_apostrophe"/>
+  </action>
+  <action name="stopwatch_trigger">
+   <rebind input="kb1_apostrophe"/>
   </action>
  </actionmap>
  <actionmap name="player">
