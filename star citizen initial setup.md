@@ -11,7 +11,7 @@
 ## Third Party Software
 ### Comms
   * Discord
-  * Mumble?
+  * Mumble, DCS-SRS Client, etc...
 ### Voice Attack
   * [Voice Attack and HCS Voice Pack ASTRA - See my StarCitizenVoiceAtk Github for more](https://github.com/Chadarius/StarCitizenVoiceAtk) 
 ### OpenTrack
@@ -24,8 +24,8 @@
   * OBS
 
 ## Star Citizen Config
-  * Copy control profile to D:\Program Files\Roberts Space Industries\StarCitizen\LIVE\USER\Client\0\Controls\Mappings
-  * Copy user.cfg to D:\Program Files\Roberts Space Industries\StarCitizen\LIVE
+  * Copy control profile to C:\Program Files\Roberts Space Industries\StarCitizen\LIVE\USER\Client\0\Controls\Mappings
+  * Copy user.cfg to C:\Program Files\Roberts Space Industries\StarCitizen\LIVE
 ### In-game Config
 #### Game Settings
   * Show Hints – No

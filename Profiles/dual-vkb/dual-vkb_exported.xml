@@ -1,5 +1,5 @@
-<ActionMaps version="1" optionsVersion="2" rebindVersion="2" profileName="dual-vkb-20231226">
- <CustomisationUIHeader label="dual-vkb-20231226" description="" image="">
+<ActionMaps version="1" optionsVersion="2" rebindVersion="2" profileName="322-20240212">
+ <CustomisationUIHeader label="322-20240212" description="" image="">
   <devices>
    <keyboard instance="1"/>
    <mouse instance="1"/>
@@ -73,6 +73,9 @@
   <action name="v_view_cycle_fwd">
    <rebind input="js2_button30"/>
   </action>
+  <action name="v_view_dynamic_zoom_abs">
+   <rebind input="js2_slider2"/>
+  </action>
   <action name="v_view_pitch">
    <rebind input="js2_roty"/>
   </action>
@@ -101,7 +104,7 @@
    <rebind input="js2_button23"/>
   </action>
   <action name="v_ifcs_toggle_cruise_control">
-   <rebind input="js2_ "/>
+   <rebind input="js2_button44"/>
   </action>
   <action name="v_ifcs_toggle_speed_limiter">
    <rebind input="js2_button2"/>
@@ -204,6 +207,15 @@
   </action>
  </actionmap>
  <actionmap name="spaceship_targeting">
+  <action name="v_enter_remote_turret_1">
+   <rebind input="js1_button49"/>
+  </action>
+  <action name="v_enter_remote_turret_2">
+   <rebind input="js1_button46"/>
+  </action>
+  <action name="v_enter_remote_turret_3">
+   <rebind input="js1_button47"/>
+  </action>
   <action name="v_target_pin_selected">
    <rebind input="js1_button15"/>
   </action>
@@ -356,7 +368,7 @@
    <rebind input="js1_button4"/>
   </action>
   <action name="v_weapon_countermeasure_noise_launch">
-   <rebind input="js1_ "/>
+   <rebind input="js1_button34"/>
   </action>
  </actionmap>
  <actionmap name="vehicle_capacitor_assignment">

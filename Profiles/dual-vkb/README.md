@@ -1,4 +1,4 @@
-# Dual-VKB - 3.21
+# Dual-VKB - 3.22.0a
 Star Citizen Joystick Profile for dual VKB sticks (Right Gladiator NXT Premium and Left Gladiator EVO Omni Throttle). This is the ultimate controller setup for Star Citizen for the price, as far as I'm concerned. I somehow managed to get the right and left sticks on eBay for $165 and $163 respectively. It tooks months of checking before that happened. There are not a lot of people selling their VKB sticks. That should tell us something. The right-hand NXT Premium stick came with all the accessories. The left hand Omni Throttle didn't come with anything other than the USB cable. But I saved at least $80 on shipping by getting them used.  
 
 ## Beta Version - Still in progress!
@@ -33,3 +33,14 @@ pp_rebindkeys dual-vkb_exported.xml
 
 ### Joystick Layout
 Here is a PDF of the [dual-vkbl](https://github.com/Chadarius/sc-config/raw/main/Profiles/dual-vkb/dual-vkb.pdf). I designed it with LibreOffice Draw. The original file is available in the repo as dual-vkb.odg. There is also a PNG at 150 dpi. 
+
+## Change log
+### 20240212
+Added changed the right pinky finger button to act as a mode shift button. This effectively doubles the number of buttons for each joystick from 30 each to 60 each. It also doubles the axis of the thumb sticks. To that end I've added some mode shift functionality into Star Citizen for a few buttons. Shift mode is marked as green on the binding chart. 
+
+- Right pinky (D1-button 5) is now the shift button. 
+- The push to talk button (Numpad-Plus) is now Button5(D1) + Right Button2(A2)
+- Remote Turret 1, 2, and 3 selections are assigned to Right Button5(D1) + Right Hat C1 (left, up, and right)
+- Cruise Control toggle is assigned to Right Button5(D1) + Left Hat A4 left
+- Zoom In/Out absolute are assigned to Right Button5(D1) + Left Hat A4 Up/down 
+
