@@ -3,6 +3,7 @@
 ### New GIMP Diagram White Background!
 - I completely recreated the Subliminal/Buzzzkiller diagram on a pure white background. Using GIMP, which is free and open source, means that anyone can easily modify the file to their liking. I've organized all the layers into logical folders and sub-folders.
 - Updated labels on dual VKB diagram with larger fonts for better readability
+- Updated the turret operated color to a darker blue for better readability on the dual-vkb diagram.
 ## 20240221
 ### Clean up and user improvements
 - Updated action descriptions and added sub-descriptions as needed to Joystick Gremlin file. 
