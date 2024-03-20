@@ -1,10 +1,11 @@
-<ActionMaps version="1" optionsVersion="2" rebindVersion="2" profileName="322-20240212">
- <CustomisationUIHeader label="322-20240212" description="" image="">
+<ActionMaps version="1" optionsVersion="2" rebindVersion="2" profileName="dual-vkb-modes-20230317">
+ <CustomisationUIHeader label="dual-vkb-modes-20230317" description="" image="">
   <devices>
    <keyboard instance="1"/>
    <mouse instance="1"/>
    <joystick instance="1"/>
    <joystick instance="2"/>
+   <joystick instance="3"/>
   </devices>
   <categories>
    <category label="@ui_CCSeatGeneral"/>
@@ -37,6 +38,7 @@
   <flight_strafe_longitudinal_abs invert="1"/>
   <flight_strafe_forward_abs invert="1"/>
  </options>
+ <options type="joystick" instance="3" Product="Joystick (Razer Tartarus V2)  {022B1532-0000-0000-0000-504944564944}"/>
  <modifiers />
  <actionmap name="seat_general">
   <action name="v_toggle_mining_mode">
@@ -269,7 +271,7 @@
  </actionmap>
  <actionmap name="spaceship_target_hailing">
   <action name="v_target_hail">
-   <rebind input="js1_hat1_down"/>
+   <rebind input="js2_button45"/>
   </action>
  </actionmap>
  <actionmap name="spaceship_radar">

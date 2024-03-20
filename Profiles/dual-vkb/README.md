@@ -1,6 +1,8 @@
 # Dual-VKB - 3.22.0a
 Star Citizen Joystick Profile for dual VKB sticks (Right Gladiator NXT Premium and Left Gladiator EVO Omni Throttle). This is the ultimate controller setup for Star Citizen for the price, as far as I'm concerned. I somehow managed to get the right and left sticks on eBay for $165 and $163 respectively. It tooks months of checking before that happened. There are not a lot of people selling their VKB sticks. That should tell us something. The right-hand NXT Premium stick came with all the accessories. The left hand Omni Throttle didn't come with anything other than the USB cable. But I saved at least $80 on shipping by getting them used.  
 
+For a record of changes please see the [changelog](./changelog.md)
+
 ## Beta Version - Still in progress!
 I just got these configured on March 23, 2023. It is new. I'll probably be making a bunch of small changes. After using dual sticks and a throttle (HOTASAS) for quite some time. I've got a basic idea of how I like to use the controls in Star Citizen and which ones are the most important for me to use. I have looked at a number of layouts and found all of them to not quite be what I was looking for. But I also saw some great ideas, especially for the dual stage triggers, which are new to me. 
 
@@ -9,11 +11,11 @@ I started off with Subliminal/Buzzzkiller's bindings and changed them significan
 ## VKB Config
 The VKB config app is a hot mess. There isn't really any documentation either. But I figured out how to get the analong mini stick buttons to work as a regular joystick button with a single press but still work to switch the mini sticks from a hat to an analog mini stick with a long press. This gives me 6 axes and 30 buttons per stick. 
 
-I set both sticks to the defaults and then changed the mini stick config, then exported the config which are available here as .CFG files. (There is a video here that describes how to configure them)[https://youtu.be/fidQmVGsvZQ?t=542].
+I set both sticks to the defaults and then changed the mini stick config, then exported the config which are available here as .CFG files. [There is a video here that describes how to configure them](https://youtu.be/fidQmVGsvZQ?t=542).
 
 ### Joystick Gremlin
 
-Download the ["dual-vkb_joystick-gremlin.xml"](https://raw.githubusercontent.com/Chadarius/sc-config/main/Profiles/dual-vkb/dual-vkb_joystick-gremlin.xml) and load the profile in Joystick Gremlin. 
+Download the ["dual-vkb_joystick_gremlin.xml"](./dual-vkb_joystick_gremlin.xml) and load the profile in Joystick Gremlin. 
 
 Adjust your deadzones in Joystick Gremlin as required (the VKB sticks probably won't need much if any). Every joystick is a little different!
 
@@ -24,7 +26,7 @@ Make sure to click the game controller icon on the Gremlin taskbar and that it s
 
 ### Star Citizen Layout
 
-Download and copy [dual-vkb_exported.xml](https://raw.githubusercontent.com/Chadarius/sc-config/main/Profiles/dual-vkb/dual-vkb_exported.xml) to 
+Download and copy [dual-vkb_exported.xml](./dual-vkb_exported.xml) to 
 "C:\Program Files\Roberts Space Industries\StarCitizen\LIVE\USER\Client\0\Controls\Mappings" or wherever your install happens to be. 
 
 In Star Citizen, open the console and cut and paste the following command:
@@ -32,15 +34,7 @@ In Star Citizen, open the console and cut and paste the following command:
 pp_rebindkeys dual-vkb_exported.xml
 
 ### Joystick Layout
-Here is a PDF of the [dual-vkbl](https://github.com/Chadarius/sc-config/raw/main/Profiles/dual-vkb/dual-vkb.pdf). I designed it with LibreOffice Draw. The original file is available in the repo as dual-vkb.odg. There is also a PNG at 150 dpi. 
+Here is a [PDF of the dual-vkb](./dual-vkb.pdf). I designed it with LibreOffice Draw. The original file is available in the repo as dual-vkb.odg. There is also a PNG at 150 dpi. 
 
-## Change log
-### 20240212
-Added changed the right pinky finger button to act as a mode shift button. This effectively doubles the number of buttons for each joystick from 30 each to 60 each. It also doubles the axis of the thumb sticks. To that end I've added some mode shift functionality into Star Citizen for a few buttons. Shift mode is marked as green on the binding chart. 
 
-- Right pinky (D1-button 5) is now the shift button. 
-- The push to talk button (Numpad-Plus) is now Button5(D1) + Right Button2(A2)
-- Remote Turret 1, 2, and 3 selections are assigned to Right Button5(D1) + Right Hat C1 (left, up, and right)
-- Cruise Control toggle is assigned to Right Button5(D1) + Left Hat A4 left
-- Zoom In/Out absolute are assigned to Right Button5(D1) + Left Hat A4 Up/down 
 

@@ -17,6 +17,11 @@
                             <condition comparison="pressed" condition-type="keyboard" extended="True" input="keyboard" scan-code="29"/>
                         </activation-condition>
                     </container>
+                    <container type="basic">
+                        <action-set>
+                            <description description="Mapped to vJoy 1 Z axis. This sets the speed limiterto zero"/>
+                        </action-set>
+                    </container>
                 </key>
                 <key description="Decrease Throttle 5%" extended="False" id="12">
                     <container type="basic">
@@ -31,6 +36,11 @@
                         <activation-condition rule="all">
                             <condition comparison="pressed" condition-type="keyboard" extended="True" input="keyboard" scan-code="29"/>
                         </activation-condition>
+                    </container>
+                    <container type="basic">
+                        <action-set>
+                            <description description="Right CTRL-Minus is mapped to vJoy 1 Z axis. This sets the speed limiter down in increments of 5%"/>
+                        </action-set>
                     </container>
                 </key>
                 <key description="Increase Throttle 5%" extended="False" id="13">
@@ -47,13 +57,18 @@
                             <condition comparison="pressed" condition-type="keyboard" extended="True" input="keyboard" scan-code="29"/>
                         </activation-condition>
                     </container>
+                    <container type="basic">
+                        <action-set>
+                            <description description="Right CTRL-Equal is mapped to vJoy 1 Z axis. This sets the speed limiter up in increments of 5%"/>
+                        </action-set>
+                    </container>
                 </key>
             </mode>
             <mode inherit="Default" name="Shift"/>
         </device>
         <device device-guid="{7820B000-B6D9-11ED-8001-444553540000}" label="VKB Gladiator NXT Right" name=" VKBsim Gladiator NXT R  " type="joystick">
             <mode name="Default">
-                <axis description="" id="1">
+                <axis description="Roll" id="1">
                     <container type="basic">
                         <action-set>
                             <remap axis="1" axis-scaling="1.0" axis-type="absolute" vjoy="1"/>
@@ -72,7 +87,7 @@
                         </action-set>
                     </container>
                 </axis>
-                <axis description="" id="2">
+                <axis description="Pitch" id="2">
                     <container type="basic">
                         <action-set>
                             <remap axis="2" axis-scaling="1.0" axis-type="absolute" vjoy="1"/>
@@ -91,7 +106,7 @@
                         </action-set>
                     </container>
                 </axis>
-                <axis description="" id="3">
+                <axis description="Speed limiter" id="3">
                     <container type="basic">
                         <action-set>
                             <remap axis="3" axis-scaling="1.0" axis-type="absolute" vjoy="1"/>
@@ -105,7 +120,7 @@
                         </action-set>
                     </container>
                 </axis>
-                <axis description="" id="4">
+                <axis description="unassigned (see also hat 1)" id="4">
                     <container type="basic">
                         <action-set>
                             <remap axis="4" axis-scaling="1.0" axis-type="absolute" vjoy="1"/>
@@ -124,7 +139,7 @@
                         </action-set>
                     </container>
                 </axis>
-                <axis description="" id="5">
+                <axis description="unassigned (see also hat 1)" id="5">
                     <container type="basic">
                         <action-set>
                             <remap axis="5" axis-scaling="1.0" axis-type="absolute" vjoy="1"/>
@@ -143,7 +158,7 @@
                         </action-set>
                     </container>
                 </axis>
-                <axis description="" id="6">
+                <axis description="Yaw" id="6">
                     <container type="basic">
                         <action-set>
                             <remap axis="6" axis-scaling="1.0" axis-type="absolute" vjoy="1"/>
@@ -162,210 +177,210 @@
                         </action-set>
                     </container>
                 </axis>
-                <button description="" id="1">
+                <button description="Fire weapon 1" id="1">
                     <container type="basic">
                         <action-set>
                             <remap button="1" vjoy="1"/>
                         </action-set>
                     </container>
                 </button>
-                <button description="" id="2">
+                <button description="Fire all weapons" id="2">
                     <container type="basic">
                         <action-set>
                             <remap button="2" vjoy="1"/>
                         </action-set>
                     </container>
                 </button>
-                <button description="" id="3">
+                <button description="Fire weapon 2" id="3">
                     <container type="basic">
                         <action-set>
                             <remap button="3" vjoy="1"/>
                         </action-set>
                     </container>
                 </button>
-                <button description="" id="4">
+                <button description="Decoy (shift Noise)" id="4">
                     <container type="basic">
                         <action-set>
                             <remap button="4" vjoy="1"/>
                         </action-set>
                     </container>
                 </button>
-                <button description="" id="5">
+                <button description="Shift mode" id="5">
                     <container type="basic">
                         <action-set>
                             <temporary-mode-switch name="Shift"/>
                         </action-set>
                     </container>
                 </button>
-                <button description="" id="6">
+                <button description="Cycle lock in view forward" id="6">
                     <container type="basic">
                         <action-set>
                             <remap button="6" vjoy="1"/>
                         </action-set>
                     </container>
                 </button>
-                <button description="" id="7">
+                <button description="Cycle lock forward" id="7">
                     <container type="basic">
                         <action-set>
                             <remap button="7" vjoy="1"/>
                         </action-set>
                     </container>
                 </button>
-                <button description="" id="8">
+                <button description="Lock hostiles closest" id="8">
                     <container type="basic">
                         <action-set>
                             <remap button="8" vjoy="1"/>
                         </action-set>
                     </container>
                 </button>
-                <button description="" id="9">
+                <button description="Cycle lock backwards" id="9">
                     <container type="basic">
                         <action-set>
                             <remap button="9" vjoy="1"/>
                         </action-set>
                     </container>
                 </button>
-                <button description="" id="10">
+                <button description="Lock target under recticle" id="10">
                     <container type="basic">
                         <action-set>
                             <remap button="10" vjoy="1"/>
                         </action-set>
                     </container>
                 </button>
-                <button description="" id="11">
+                <button description="Lock 2 / Pin 2 (hold)" id="11">
                     <container type="basic">
                         <action-set>
                             <remap button="11" vjoy="1"/>
                         </action-set>
                     </container>
                 </button>
-                <button description="" id="12">
+                <button description="Lock 3 / Pin 3 (hold)" id="12">
                     <container type="basic">
                         <action-set>
                             <remap button="12" vjoy="1"/>
                         </action-set>
                     </container>
                 </button>
-                <button description="" id="13">
+                <button description="Remove all pins" id="13">
                     <container type="basic">
                         <action-set>
                             <remap button="13" vjoy="1"/>
                         </action-set>
                     </container>
                 </button>
-                <button description="" id="14">
+                <button description="Lock 1 /  Pin 1 (hold)" id="14">
                     <container type="basic">
                         <action-set>
                             <remap button="14" vjoy="1"/>
                         </action-set>
                     </container>
                 </button>
-                <button description="" id="15">
+                <button description="Pin / Unpin (hold) target" id="15">
                     <container type="basic">
                         <action-set>
                             <remap button="15" vjoy="1"/>
                         </action-set>
                     </container>
                 </button>
-                <button description="" id="16">
+                <button description="Mining slot 2 / Recenter turret / Remote Turret 2 (shift)" id="16">
                     <container type="basic">
                         <action-set>
                             <remap button="16" vjoy="1"/>
                         </action-set>
                     </container>
                 </button>
-                <button description="" id="17">
+                <button description="Mining slot 3 / Cycle right salvage mod / Turret cycle fire mode / Remote turret 3 (shift)" id="17">
                     <container type="basic">
                         <action-set>
                             <remap button="17" vjoy="1"/>
                         </action-set>
                     </container>
                 </button>
-                <button description="" id="18">
+                <button description="Increase decoy burst / Turret ESP toggle (shift)" id="18">
                     <container type="basic">
                         <action-set>
                             <remap button="18" vjoy="1"/>
                         </action-set>
                     </container>
                 </button>
-                <button description="" id="19">
+                <button description="Mining slot 1 / Cycle left salvage mod / Turret gyro toggle / Remote turret 1 (shift)" id="19">
                     <container type="basic">
                         <action-set>
                             <remap button="19" vjoy="1"/>
                         </action-set>
                     </container>
                 </button>
-                <button description="" id="20">
+                <button description="Enter/exit remote turret" id="20">
                     <container type="basic">
                         <action-set>
                             <remap button="20" vjoy="1"/>
                         </action-set>
                     </container>
                 </button>
-                <button description="" id="21">
+                <button description="Increase missles" id="21">
                     <container type="basic">
                         <action-set>
                             <remap button="21" vjoy="1"/>
                         </action-set>
                     </container>
                 </button>
-                <button description="" id="22">
+                <button description="Missile mode toggle" id="22">
                     <container type="basic">
                         <action-set>
                             <remap button="22" vjoy="1"/>
                         </action-set>
                     </container>
                 </button>
-                <button description="" id="23">
+                <button description="Deploy config" id="23">
                     <container type="basic">
                         <action-set>
                             <remap button="23" vjoy="1"/>
                         </action-set>
                     </container>
                 </button>
-                <button description="" id="24">
+                <button description="retract config" id="24">
                     <container type="basic">
                         <action-set>
                             <remap button="24" vjoy="1"/>
                         </action-set>
                     </container>
                 </button>
-                <button description="" id="25">
+                <button description="Acceleration limiter increase" id="25">
                     <container type="basic">
                         <action-set>
                             <remap button="25" vjoy="1"/>
                         </action-set>
                     </container>
                 </button>
-                <button description="" id="26">
+                <button description="Acceleration limiter decrease" id="26">
                     <container type="basic">
                         <action-set>
                             <remap button="26" vjoy="1"/>
                         </action-set>
                     </container>
                 </button>
-                <button description="" id="27">
+                <button description="Shields power on/off" id="27">
                     <container type="basic">
                         <action-set>
                             <remap button="27" vjoy="1"/>
                         </action-set>
                     </container>
                 </button>
-                <button description="" id="28">
+                <button description="Thuster power on/off" id="28">
                     <container type="basic">
                         <action-set>
                             <remap button="28" vjoy="1"/>
                         </action-set>
                     </container>
                 </button>
-                <button description="" id="29">
+                <button description="Weapons power on/off" id="29">
                     <container type="basic">
                         <action-set>
                             <remap button="29" vjoy="1"/>
                         </action-set>
                     </container>
                 </button>
-                <button description="" id="30">
+                <button description="unassigned" id="30">
                     <container type="basic">
                         <action-set>
                             <remap button="30" vjoy="1"/>
@@ -470,10 +485,30 @@
                 <button description="" id="126"/>
                 <button description="" id="127"/>
                 <button description="" id="128"/>
-                <hat description="" id="1">
+                <hat description="Subtargeting and hailing" id="1">
                     <container type="basic">
                         <action-set>
                             <remap hat="1" vjoy="1"/>
+                        </action-set>
+                    </container>
+                    <container type="basic">
+                        <action-set>
+                            <description description="Left - Sub-target back"/>
+                        </action-set>
+                    </container>
+                    <container type="basic">
+                        <action-set>
+                            <description description="Right - Sub-target forward"/>
+                        </action-set>
+                    </container>
+                    <container type="basic">
+                        <action-set>
+                            <description description="Up - Sub-target reset main"/>
+                        </action-set>
+                    </container>
+                    <container type="basic">
+                        <action-set>
+                            <description description="Down - Hail Target"/>
                         </action-set>
                     </container>
                 </hat>
@@ -491,7 +526,7 @@
                                     <control-point x="-1.0" y="-1.0"/>
                                     <control-point x="-0.728" y="-0.5"/>
                                     <control-point x="-0.496" y="-0.004"/>
-                                    <control-point x="0" y="0"/>
+                                    <control-point x="0.0" y="0.0"/>
                                     <control-point x="0.496" y="0.004"/>
                                     <control-point x="0.728" y="0.5"/>
                                     <control-point x="1.0" y="1.0"/>
@@ -510,7 +545,7 @@
                                     <control-point x="-1.0" y="-1.0"/>
                                     <control-point x="-0.744" y="-0.5"/>
                                     <control-point x="-0.5" y="-0.004"/>
-                                    <control-point x="0" y="0"/>
+                                    <control-point x="0.0" y="0.0"/>
                                     <control-point x="0.5" y="0.004"/>
                                     <control-point x="0.744" y="0.5"/>
                                     <control-point x="1.0" y="1.0"/>
@@ -544,14 +579,14 @@
                         </action-set>
                     </container>
                 </button>
-                <button description="" id="4">
+                <button description="Noise (shift)" id="4">
                     <container type="basic">
                         <action-set>
                             <remap button="34" vjoy="1"/>
                         </action-set>
                     </container>
                 </button>
-                <button description="" id="5"/>
+                <button description="shift mode" id="5"/>
                 <button description="" id="6">
                     <container type="basic">
                         <action-set>
@@ -622,14 +657,14 @@
                         </action-set>
                     </container>
                 </button>
-                <button description="" id="16">
+                <button description="Remote turret 2" id="16">
                     <container type="basic">
                         <action-set>
                             <remap button="46" vjoy="1"/>
                         </action-set>
                     </container>
                 </button>
-                <button description="" id="17">
+                <button description="Remote turret 3" id="17">
                     <container type="basic">
                         <action-set>
                             <remap button="47" vjoy="1"/>
@@ -643,7 +678,7 @@
                         </action-set>
                     </container>
                 </button>
-                <button description="" id="19">
+                <button description="Remote turret 1" id="19">
                     <container type="basic">
                         <action-set>
                             <remap button="49" vjoy="1"/>
@@ -825,7 +860,7 @@
                 <button description="" id="126"/>
                 <button description="" id="127"/>
                 <button description="" id="128"/>
-                <hat description="" id="1">
+                <hat description="Hat 2 (Hat 1 shifted)" id="1">
                     <container type="basic">
                         <action-set>
                             <remap hat="2" vjoy="1"/>
@@ -834,9 +869,9 @@
                 </hat>
             </mode>
         </device>
-        <device device-guid="{C5F03730-C97E-11ED-8001-444553540000}" label=",,,,," name=" VKBsim Gladiator EVO OT  L  " type="joystick">
+        <device device-guid="{C5F03730-C97E-11ED-8001-444553540000}" label="" name=" VKBsim Gladiator EVO OT  L  " type="joystick">
             <mode name="Default">
-                <axis description="" id="1">
+                <axis description="Strafe Left/Right" id="1">
                     <container type="basic">
                         <action-set>
                             <remap axis="1" axis-scaling="1.0" axis-type="absolute" vjoy="2"/>
@@ -855,7 +890,7 @@
                         </action-set>
                     </container>
                 </axis>
-                <axis description="" id="2">
+                <axis description="Throttle Forward/Backward" id="2">
                     <container type="basic">
                         <action-set>
                             <remap axis="2" axis-scaling="1.0" axis-type="absolute" vjoy="2"/>
@@ -874,7 +909,7 @@
                         </action-set>
                     </container>
                 </axis>
-                <axis description="" id="3">
+                <axis description="Throttle forward" id="3">
                     <container type="basic">
                         <action-set>
                             <remap axis="3" axis-scaling="1.0" axis-type="absolute" vjoy="2"/>
@@ -893,7 +928,7 @@
                         </action-set>
                     </container>
                 </axis>
-                <axis description="" id="4">
+                <axis description="Camera Left/Right (see also Hat 1)" id="4">
                     <container type="basic">
                         <action-set>
                             <remap axis="4" axis-scaling="1.0" axis-type="absolute" vjoy="2"/>
@@ -912,7 +947,7 @@
                         </action-set>
                     </container>
                 </axis>
-                <axis description="" id="5">
+                <axis description="Camera Up/down (see also Hat 1)" id="5">
                     <container type="basic">
                         <action-set>
                             <remap axis="5" axis-scaling="1.0" axis-type="absolute" vjoy="2"/>
@@ -931,7 +966,7 @@
                         </action-set>
                     </container>
                 </axis>
-                <axis description="" id="6">
+                <axis description="Strafe Up/Down" id="6">
                     <container type="basic">
                         <action-set>
                             <remap axis="6" axis-scaling="1.0" axis-type="absolute" vjoy="2"/>
@@ -950,210 +985,216 @@
                         </action-set>
                     </container>
                 </axis>
-                <button description="" id="1">
+                <button description="Afterburner" id="1">
                     <container type="basic">
                         <action-set>
                             <remap button="1" vjoy="2"/>
                         </action-set>
                     </container>
                 </button>
-                <button description="" id="2">
+                <button description="Speed Limiter Max (second stage trigger)" id="2">
                     <container type="basic">
                         <action-set>
                             <remap button="2" vjoy="2"/>
                         </action-set>
                     </container>
                 </button>
-                <button description="" id="3">
+                <button description="Gimbals toggle" id="3">
                     <container type="basic">
                         <action-set>
                             <remap button="3" vjoy="2"/>
                         </action-set>
                     </container>
                 </button>
-                <button description="" id="4">
+                <button description="VTOL toggle" id="4">
                     <container type="basic">
                         <action-set>
                             <remap button="4" vjoy="2"/>
                         </action-set>
                     </container>
                 </button>
-                <button description="" id="5">
+                <button description="Landing gear toggle" id="5">
                     <container type="basic">
                         <action-set>
                             <remap button="5" vjoy="2"/>
                         </action-set>
                     </container>
                 </button>
-                <button description="" id="6">
+                <button description="Rest power" id="6">
                     <container type="basic">
                         <action-set>
                             <remap button="6" vjoy="2"/>
                         </action-set>
                     </container>
                 </button>
-                <button description="" id="7">
+                <button description="Power to shields (hold max shields)" id="7">
                     <container type="basic">
                         <action-set>
                             <remap button="7" vjoy="2"/>
                         </action-set>
                     </container>
                 </button>
-                <button description="" id="8">
+                <button description="Power to engines (hold max power to engines)" id="8">
                     <container type="basic">
                         <action-set>
                             <remap button="8" vjoy="2"/>
                         </action-set>
                     </container>
                 </button>
-                <button description="" id="9">
+                <button description="Power to weapons (hold max power to weapons)" id="9">
                     <container type="basic">
                         <action-set>
                             <remap button="9" vjoy="2"/>
                         </action-set>
                     </container>
                 </button>
-                <button description="" id="10">
+                <button description="Quantum toggle (hold to activate quantum jump)" id="10">
                     <container type="basic">
                         <action-set>
                             <remap button="10" vjoy="2"/>
                         </action-set>
                     </container>
                 </button>
-                <button description="" id="11">
+                <button description="Right CTRL-Equal is mapped to vJoy 1 Z axis. This sets the speed limiter up  in increments of 5%" id="11">
                     <container type="basic">
                         <action-set>
-                            <remap button="11" vjoy="2"/>
+                            <map-to-keyboard>
+                                <key extended="True" scan-code="29"/>
+                                <key extended="False" scan-code="13"/>
+                            </map-to-keyboard>
                         </action-set>
                     </container>
                 </button>
-                <button description="" id="12">
+                <button description="Decoupled mode toggle" id="12">
                     <container type="basic">
                         <action-set>
                             <remap button="12" vjoy="2"/>
                         </action-set>
                     </container>
                 </button>
-                <button description="" id="13">
+                <button description="Right CTRL-Minus is mapped to vJoy 1 Z axis. This sets the speed limiter down in increments of 5%" id="13">
                     <container type="basic">
                         <action-set>
-                            <remap button="13" vjoy="2"/>
+                            <map-to-keyboard>
+                                <key extended="True" scan-code="29"/>
+                                <key extended="False" scan-code="12"/>
+                            </map-to-keyboard>
                         </action-set>
                     </container>
                 </button>
-                <button description="" id="14">
+                <button description="Set trim (hold trim off)" id="14">
                     <container type="basic">
                         <action-set>
                             <remap button="14" vjoy="2"/>
                         </action-set>
                     </container>
                 </button>
-                <button description="" id="15">
+                <button description="Request Landing" id="15">
                     <container type="basic">
                         <action-set>
                             <remap button="15" vjoy="2"/>
                         </action-set>
                     </container>
                 </button>
-                <button description="" id="16">
+                <button description="Shields fore" id="16">
                     <container type="basic">
                         <action-set>
                             <remap button="16" vjoy="2"/>
                         </action-set>
                     </container>
                 </button>
-                <button description="" id="17">
+                <button description="Shields starboard" id="17">
                     <container type="basic">
                         <action-set>
                             <remap button="17" vjoy="2"/>
                         </action-set>
                     </container>
                 </button>
-                <button description="" id="18">
+                <button description="Shields aft" id="18">
                     <container type="basic">
                         <action-set>
                             <remap button="18" vjoy="2"/>
                         </action-set>
                     </container>
                 </button>
-                <button description="" id="19">
+                <button description="Shields port" id="19">
                     <container type="basic">
                         <action-set>
                             <remap button="19" vjoy="2"/>
                         </action-set>
                     </container>
                 </button>
-                <button description="" id="20">
+                <button description="Shields reset" id="20">
                     <container type="basic">
                         <action-set>
                             <remap button="20" vjoy="2"/>
                         </action-set>
                     </container>
                 </button>
-                <button description="" id="21">
+                <button description="Ping (hold 1 sec and release) - Hold in scan mode" id="21">
                     <container type="basic">
                         <action-set>
                             <remap button="21" vjoy="2"/>
                         </action-set>
                     </container>
                 </button>
-                <button description="" id="22">
+                <button description="Brake" id="22">
                     <container type="basic">
                         <action-set>
                             <remap button="22" vjoy="2"/>
                         </action-set>
                     </container>
                 </button>
-                <button description="" id="23">
+                <button description="Rest speed to SCM - Mining laser up" id="23">
                     <container type="basic">
                         <action-set>
                             <remap button="23" vjoy="2"/>
                         </action-set>
                     </container>
                 </button>
-                <button description="" id="24">
+                <button description="Match target velocity - Mining laser down" id="24">
                     <container type="basic">
                         <action-set>
                             <remap button="24" vjoy="2"/>
                         </action-set>
                     </container>
                 </button>
-                <button description="" id="25">
+                <button description="Open/close doors" id="25">
                     <container type="basic">
                         <action-set>
                             <remap button="25" vjoy="2"/>
                         </action-set>
                     </container>
                 </button>
-                <button description="" id="26">
+                <button description="Lock/unlock doors" id="26">
                     <container type="basic">
                         <action-set>
                             <remap button="26" vjoy="2"/>
                         </action-set>
                     </container>
                 </button>
-                <button description="" id="27">
+                <button description="Tools mode (mining, salvaging, etc...)" id="27">
                     <container type="basic">
                         <action-set>
                             <remap button="27" vjoy="2"/>
                         </action-set>
                     </container>
                 </button>
-                <button description="" id="28">
+                <button description="Flight ready (turn on ship)" id="28">
                     <container type="basic">
                         <action-set>
                             <remap button="28" vjoy="2"/>
                         </action-set>
                     </container>
                 </button>
-                <button description="" id="29">
+                <button description="Lights toggle" id="29">
                     <container type="basic">
                         <action-set>
                             <remap button="29" vjoy="2"/>
                         </action-set>
                     </container>
                 </button>
-                <button description="" id="30">
+                <button description="Camera mode toggle" id="30">
                     <container type="basic">
                         <action-set>
                             <remap button="30" vjoy="2"/>
@@ -1258,10 +1299,20 @@
                 <button description="" id="126"/>
                 <button description="" id="127"/>
                 <button description="" id="128"/>
-                <hat description="" id="1">
+                <hat description="Hat 1" id="1">
                     <container type="basic">
                         <action-set>
                             <remap hat="1" vjoy="2"/>
+                        </action-set>
+                    </container>
+                    <container type="basic">
+                        <action-set>
+                            <description description="Right - Scanning Mode"/>
+                        </action-set>
+                    </container>
+                    <container type="basic">
+                        <action-set>
+                            <description description="Down - Rear View"/>
                         </action-set>
                     </container>
                 </hat>
@@ -1279,7 +1330,7 @@
                                     <control-point x="-1.0" y="-1.0"/>
                                     <control-point x="-0.728" y="-0.5"/>
                                     <control-point x="-0.5" y="0.004"/>
-                                    <control-point x="0" y="0"/>
+                                    <control-point x="0.0" y="0.0"/>
                                     <control-point x="0.5" y="-0.004"/>
                                     <control-point x="0.728" y="0.5"/>
                                     <control-point x="1.0" y="1.0"/>
@@ -1289,7 +1340,7 @@
                         </action-set>
                     </container>
                 </axis>
-                <axis description="" id="5">
+                <axis description="Camera zoom in/out" id="5">
                     <container type="basic">
                         <action-set>
                             <remap axis="8" axis-scaling="1.0" axis-type="absolute" vjoy="2"/>
@@ -1298,7 +1349,7 @@
                                     <control-point x="-1.0" y="-1.0"/>
                                     <control-point x="-0.756" y="0.0"/>
                                     <control-point x="-0.05" y="0.0"/>
-                                    <control-point x="0" y="0"/>
+                                    <control-point x="0.0" y="0.0"/>
                                     <control-point x="0.05" y="0.0"/>
                                     <control-point x="0.756" y="-0.0"/>
                                     <control-point x="1.0" y="1.0"/>
@@ -1400,7 +1451,7 @@
                         </action-set>
                     </container>
                 </button>
-                <button description="" id="14">
+                <button description="Cruise control toggle" id="14">
                     <container type="basic">
                         <action-set>
                             <remap button="44" vjoy="2"/>
@@ -1512,7 +1563,7 @@
                         </action-set>
                     </container>
                 </button>
-                <button description=",,,,.,........" id="30">
+                <button description="" id="30">
                     <container type="basic">
                         <action-set>
                             <remap button="60" vjoy="2"/>
@@ -1617,13 +1668,81 @@
                 <button description="" id="126"/>
                 <button description="" id="127"/>
                 <button description="" id="128"/>
-                <hat description="," id="1">
+                <hat description="Hat 2 (Hat 1 shifted)" id="1">
                     <container type="basic">
                         <action-set>
                             <remap hat="2" vjoy="2"/>
                         </action-set>
                     </container>
                 </hat>
+            </mode>
+        </device>
+        <device device-guid="{E82335D0-CABF-11EE-8005-444553540000}" label="" name="Joystick (Razer Tartarus V2)" type="joystick">
+            <mode name="Default">
+                <axis description="" id="1"/>
+                <axis description="" id="2"/>
+                <axis description="" id="3"/>
+                <axis description="" id="4"/>
+                <axis description="" id="5"/>
+                <axis description="" id="6"/>
+                <button description="" id="1"/>
+                <button description="" id="2"/>
+                <button description="" id="3"/>
+                <button description="" id="4"/>
+                <button description="" id="5"/>
+                <button description="" id="6"/>
+                <button description="" id="7"/>
+                <button description="" id="8"/>
+                <button description="" id="9"/>
+                <button description="" id="10"/>
+                <button description="" id="11"/>
+                <button description="" id="12"/>
+                <button description="" id="13"/>
+                <button description="" id="14"/>
+                <button description="" id="15"/>
+                <button description="" id="16"/>
+                <button description="" id="17"/>
+                <button description="" id="18"/>
+                <button description="" id="19"/>
+                <button description="" id="20"/>
+                <button description="" id="21"/>
+                <button description="" id="22"/>
+                <button description="" id="23"/>
+                <button description="" id="24"/>
+                <hat description="" id="1"/>
+            </mode>
+            <mode name="Shift">
+                <axis description="" id="1"/>
+                <axis description="" id="2"/>
+                <axis description="" id="3"/>
+                <axis description="" id="4"/>
+                <axis description="" id="5"/>
+                <axis description="" id="6"/>
+                <button description="" id="1"/>
+                <button description="" id="2"/>
+                <button description="" id="3"/>
+                <button description="" id="4"/>
+                <button description="" id="5"/>
+                <button description="" id="6"/>
+                <button description="" id="7"/>
+                <button description="" id="8"/>
+                <button description="" id="9"/>
+                <button description="" id="10"/>
+                <button description="" id="11"/>
+                <button description="" id="12"/>
+                <button description="" id="13"/>
+                <button description="" id="14"/>
+                <button description="" id="15"/>
+                <button description="" id="16"/>
+                <button description="" id="17"/>
+                <button description="" id="18"/>
+                <button description="" id="19"/>
+                <button description="" id="20"/>
+                <button description="" id="21"/>
+                <button description="" id="22"/>
+                <button description="" id="23"/>
+                <button description="" id="24"/>
+                <hat description="" id="1"/>
             </mode>
         </device>
     </devices>
