@@ -1,4 +1,21 @@
 # Change log
+## 20230323
+### Joystick Gremlin Axes
+Under controls in Star Citizen, set all Inversion Settings to "no"
+- Inverted speed limiter (right Z axis) in Gremlin
+- Inverted throttle forward/backward (left Y axis) in Gremlin
+- Inverted Strafe up/down (left Z rotation) in Gremlin
+- Added .03 deadzones to left x and y axes for strafe left/right and throttle fwd/back in Gremlin
+- Changed the throttle forward (Z axis) curve to be linear in Gremlin
+### Changed Keybinds (see new diagram)
+- Moved VTOL
+- Moved Deploy and Retract Wings
+- Changed Gear from toggle to Gear down and modifier for gear up
+- Added Bombs Toggle Impact point
+- Added Bombs decrease HUD range
+- Added Bombs increase HUD range
+- Added Bombs reset HUD range
+### 
 ## 20240318
 ### New GIMP Diagram White Background!
 - I completely recreated the Subliminal/Buzzzkiller diagram on a pure white background. Using GIMP, which is free and open source, means that anyone can easily modify the file to their liking. I've organized all the layers into logical folders and sub-folders.

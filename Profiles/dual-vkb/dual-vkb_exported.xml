@@ -1,5 +1,5 @@
-<ActionMaps version="1" optionsVersion="2" rebindVersion="2" profileName="dual-vkb-modes-20230317">
- <CustomisationUIHeader label="dual-vkb-modes-20230317" description="" image="">
+<ActionMaps version="1" optionsVersion="2" rebindVersion="2" profileName="dual-vkb-20240323">
+ <CustomisationUIHeader label="dual-vkb-20240323" description="" image="">
   <devices>
    <keyboard instance="1"/>
    <mouse instance="1"/>
@@ -28,15 +28,13 @@
   <option input="slider2" deadzone="0"/>
  </deviceoptions>
  <options type="keyboard" instance="1" Product="Keyboard  {6F1D2B61-D5A0-11CF-BFC7-444553540000}"/>
- <options type="joystick" instance="1" Product="vJoy Device  {BEAD1234-0000-0000-0000-504944564944}"/>
+ <options type="joystick" instance="1" Product="vJoy Device  {BEAD1234-0000-0000-0000-504944564944}">
+  <mgv_move invert="0"/>
+  <mining_throttle invert="0"/>
+ </options>
  <options type="joystick" instance="2" Product="vJoy Device  {BEAD1234-0000-0000-0000-504944564944}">
-  <eva_move_strafe_longitudinal invert="1"/>
-  <eva_move_strafe_vertical invert="1"/>
-  <flight_move_strafe_vertical invert="1"/>
-  <flight_strafe_frontback_abs_rel invert="1"/>
-  <flight_strafe_forward_abs_rel invert="1"/>
-  <flight_strafe_longitudinal_abs invert="1"/>
-  <flight_strafe_forward_abs invert="1"/>
+  <mgv_move invert="0"/>
+  <mining_throttle invert="0"/>
  </options>
  <options type="joystick" instance="3" Product="Joystick (Razer Tartarus V2)  {022B1532-0000-0000-0000-504944564944}"/>
  <modifiers />
@@ -87,10 +85,10 @@
  </actionmap>
  <actionmap name="spaceship_movement">
   <action name="v_accel_range_down">
-   <rebind input="js1_button26"/>
+   <rebind input="js2_button43"/>
   </action>
   <action name="v_accel_range_up">
-   <rebind input="js1_button25"/>
+   <rebind input="js2_button41"/>
   </action>
   <action name="v_afterburner">
    <rebind input="js2_button1"/>
@@ -99,6 +97,9 @@
    <rebind input="js2_button15"/>
   </action>
   <action name="v_autoland">
+   <rebind input="js2_button5"/>
+  </action>
+  <action name="v_deploy_landing_system">
    <rebind input="js2_button5"/>
   </action>
   <action name="v_ifcs_speed_limiter_reset_scm">
@@ -113,6 +114,12 @@
   </action>
   <action name="v_ifcs_toggle_vector_decoupling">
    <rebind input="js2_button12"/>
+  </action>
+  <action name="v_lock_rotation">
+   <rebind input="kb1_ "/>
+  </action>
+  <action name="v_retract_landing_system">
+   <rebind input="js2_button35"/>
   </action>
   <action name="v_roll">
    <rebind input="js1_x"/>
@@ -180,16 +187,16 @@
    <rebind input="js2_ "/>
   </action>
   <action name="v_toggle_landing_system">
-   <rebind input="js2_button5"/>
+   <rebind input="js2_ "/>
   </action>
   <action name="v_toggle_vtol">
-   <rebind input="js2_button4"/>
+   <rebind input="js2_button33"/>
   </action>
   <action name="v_transform_deploy">
-   <rebind input="js1_button23"/>
+   <rebind input="js2_button4"/>
   </action>
   <action name="v_transform_retract">
-   <rebind input="js1_button24"/>
+   <rebind input="js2_button34"/>
   </action>
   <action name="v_yaw">
    <rebind input="js1_rotz"/>
@@ -202,10 +209,10 @@
  </actionmap>
  <actionmap name="spaceship_docking">
   <action name="v_invoke_docking">
-   <rebind input="js2_button10"/>
+   <rebind input="js2_button5"/>
   </action>
   <action name="v_toggle_docking_mode">
-   <rebind input="js2_button10"/>
+   <rebind input="js2_button5"/>
   </action>
  </actionmap>
  <actionmap name="spaceship_targeting">
@@ -343,6 +350,18 @@
   </action>
  </actionmap>
  <actionmap name="spaceship_missiles">
+  <action name="v_weapon_bombing_hud_range_decrease">
+   <rebind input="js1_button9"/>
+  </action>
+  <action name="v_weapon_bombing_hud_range_increase">
+   <rebind input="js1_button7"/>
+  </action>
+  <action name="v_weapon_bombing_hud_range_reset">
+   <rebind input="js1_button6"/>
+  </action>
+  <action name="v_weapon_bombing_toggle_desired_impact_point">
+   <rebind input="js1_button10"/>
+  </action>
   <action name="v_weapon_cycle_missile_fwd">
    <rebind input="js1_button3"/>
   </action>
@@ -401,6 +420,9 @@
   </action>
   <action name="v_power_throttle_up">
    <rebind input="kb1_ "/>
+  </action>
+  <action name="v_power_toggle">
+   <rebind input="js2_button58"/>
   </action>
   <action name="v_power_toggle_shields">
    <rebind input="js1_button27"/>

@@ -212,14 +212,14 @@
                         </action-set>
                     </container>
                 </button>
-                <button description="Cycle lock in view forward" id="6">
+                <button description="Cycle lock in view forward | Bombs reset HUD range" id="6">
                     <container type="basic">
                         <action-set>
                             <remap button="6" vjoy="1"/>
                         </action-set>
                     </container>
                 </button>
-                <button description="Cycle lock forward" id="7">
+                <button description="Cycle lock forward | Bombs increase HUD range" id="7">
                     <container type="basic">
                         <action-set>
                             <remap button="7" vjoy="1"/>
@@ -233,14 +233,14 @@
                         </action-set>
                     </container>
                 </button>
-                <button description="Cycle lock backwards" id="9">
+                <button description="Cycle lock backwards | Bombs decrease HUD range" id="9">
                     <container type="basic">
                         <action-set>
                             <remap button="9" vjoy="1"/>
                         </action-set>
                     </container>
                 </button>
-                <button description="Lock target under recticle" id="10">
+                <button description="Lock target under recticle | Bombs toggle impact point" id="10">
                     <container type="basic">
                         <action-set>
                             <remap button="10" vjoy="1"/>
@@ -331,28 +331,28 @@
                         </action-set>
                     </container>
                 </button>
-                <button description="Deploy config" id="23">
+                <button description="unassigned" id="23">
                     <container type="basic">
                         <action-set>
                             <remap button="23" vjoy="1"/>
                         </action-set>
                     </container>
                 </button>
-                <button description="retract config" id="24">
+                <button description="unassigned" id="24">
                     <container type="basic">
                         <action-set>
                             <remap button="24" vjoy="1"/>
                         </action-set>
                     </container>
                 </button>
-                <button description="Acceleration limiter increase" id="25">
+                <button description="unassigned" id="25">
                     <container type="basic">
                         <action-set>
                             <remap button="25" vjoy="1"/>
                         </action-set>
                     </container>
                 </button>
-                <button description="Acceleration limiter decrease" id="26">
+                <button description="unassigned" id="26">
                     <container type="basic">
                         <action-set>
                             <remap button="26" vjoy="1"/>
@@ -885,7 +885,7 @@
                                     <control-point x="0.72" y="0.504"/>
                                     <control-point x="1.0" y="1.0"/>
                                 </mapping>
-                                <deadzone center-high="0.0" center-low="0.0" high="0.99" low="-0.99"/>
+                                <deadzone center-high="0.03" center-low="-0.03" high="0.99" low="-0.99"/>
                             </response-curve>
                         </action-set>
                     </container>
@@ -896,15 +896,15 @@
                             <remap axis="2" axis-scaling="1.0" axis-type="absolute" vjoy="2"/>
                             <response-curve>
                                 <mapping type="cubic-bezier-spline">
-                                    <control-point x="-1.0" y="-1.0"/>
-                                    <control-point x="-0.728" y="-0.496"/>
-                                    <control-point x="-0.496" y="-0.0"/>
-                                    <control-point x="0.0" y="0.0"/>
-                                    <control-point x="0.496" y="0.0"/>
-                                    <control-point x="0.728" y="0.496"/>
-                                    <control-point x="1.0" y="1.0"/>
+                                    <control-point x="-1.0" y="1.0"/>
+                                    <control-point x="-0.728" y="0.496"/>
+                                    <control-point x="-0.496" y="0.0"/>
+                                    <control-point x="0.0" y="-0.0"/>
+                                    <control-point x="0.496" y="-0.0"/>
+                                    <control-point x="0.728" y="-0.496"/>
+                                    <control-point x="1.0" y="-1.0"/>
                                 </mapping>
-                                <deadzone center-high="0.05" center-low="0.0" high="0.99" low="-0.99"/>
+                                <deadzone center-high="0.03" center-low="-0.03" high="0.99" low="-0.99"/>
                             </response-curve>
                         </action-set>
                     </container>
@@ -914,13 +914,8 @@
                         <action-set>
                             <remap axis="3" axis-scaling="1.0" axis-type="absolute" vjoy="2"/>
                             <response-curve>
-                                <mapping type="cubic-bezier-spline">
+                                <mapping type="cubic-spline">
                                     <control-point x="-1.0" y="-1.0"/>
-                                    <control-point x="-0.724" y="-0.5"/>
-                                    <control-point x="-0.516" y="-0.004"/>
-                                    <control-point x="0.0" y="0.0"/>
-                                    <control-point x="0.516" y="0.004"/>
-                                    <control-point x="0.724" y="0.5"/>
                                     <control-point x="1.0" y="1.0"/>
                                 </mapping>
                                 <deadzone center-high="0.0" center-low="0.0" high="1.0" low="-1.0"/>
@@ -972,13 +967,13 @@
                             <remap axis="6" axis-scaling="1.0" axis-type="absolute" vjoy="2"/>
                             <response-curve>
                                 <mapping type="cubic-bezier-spline">
-                                    <control-point x="-1.0" y="-1.0"/>
-                                    <control-point x="-0.724" y="-0.496"/>
-                                    <control-point x="-0.508" y="-0.0"/>
-                                    <control-point x="0.0" y="0.0"/>
-                                    <control-point x="0.508" y="0.0"/>
-                                    <control-point x="0.724" y="0.496"/>
-                                    <control-point x="1.0" y="1.0"/>
+                                    <control-point x="-1.0" y="1.0"/>
+                                    <control-point x="-0.724" y="0.496"/>
+                                    <control-point x="-0.508" y="0.0"/>
+                                    <control-point x="0.0" y="-0.0"/>
+                                    <control-point x="0.508" y="-0.0"/>
+                                    <control-point x="0.724" y="-0.496"/>
+                                    <control-point x="1.0" y="-1.0"/>
                                 </mapping>
                                 <deadzone center-high="0.0" center-low="0.0" high="1.0" low="-1.0"/>
                             </response-curve>
@@ -1006,21 +1001,21 @@
                         </action-set>
                     </container>
                 </button>
-                <button description="VTOL toggle" id="4">
+                <button description="Deploy Config" id="4">
                     <container type="basic">
                         <action-set>
                             <remap button="4" vjoy="2"/>
                         </action-set>
                     </container>
                 </button>
-                <button description="Landing gear toggle" id="5">
+                <button description="Landing gear down" id="5">
                     <container type="basic">
                         <action-set>
                             <remap button="5" vjoy="2"/>
                         </action-set>
                     </container>
                 </button>
-                <button description="Rest power" id="6">
+                <button description="Reset power" id="6">
                     <container type="basic">
                         <action-set>
                             <remap button="6" vjoy="2"/>
@@ -1374,21 +1369,21 @@
                         </action-set>
                     </container>
                 </button>
-                <button description="" id="3">
+                <button description="Toggle VTOL" id="3">
                     <container type="basic">
                         <action-set>
                             <remap button="33" vjoy="2"/>
                         </action-set>
                     </container>
                 </button>
-                <button description="" id="4">
+                <button description="Retract Config" id="4">
                     <container type="basic">
                         <action-set>
                             <remap button="34" vjoy="2"/>
                         </action-set>
                     </container>
                 </button>
-                <button description="" id="5">
+                <button description="Landing Gear up" id="5">
                     <container type="basic">
                         <action-set>
                             <remap button="35" vjoy="2"/>
