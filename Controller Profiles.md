@@ -26,6 +26,18 @@ Contains Folders with Star Citizen profiles, Joystick Gremlin profiles, and joys
     * Adjust the curves and deadzones to match your individual devices and personal tastes. I highly suggest turning off all the controller deadzones, curves, and sensitivity settings inside of Star Citizen and only set those in Joystick Gremlin. 
     * Press the game controller icon in the taskbar to enable virtual sticks
 
+### Dual VKB (Right Premium and Left Omnithrottle)
+  * [dual-vkb_exported.xml](https://raw.githubusercontent.com/Chadarius/sc-config/main/Profiles/dual-vkb/dual-vkb_exported.xml)
+  * Star Citizen Console command:
+    * pp_rebindkeys dual-vkb_exported.xml
+  * [dual-vkb_joystick-gremlin.xml](https://raw.githubusercontent.com/Chadarius/sc-config/main/Profiles/dual-vkb/dual-vkb_joystick_gremlin.xml)
+  ![dual-vkb](https://github.com/Chadarius/sc-config/blob/main/Profiles/dual-vkb/dual-vkb.png?raw=true)
+
+### Razor Tartarus v2
+* [Razor Synapse Profile](./Profiles/tartarus%20v2/tartarus-star_citizen.synapse4)
+* [Razor Chroma Effects profile](./Profiles/tartarus%20v2/tartarus-star_citizen.ChromaEffects)
+![Tartarus v2 Diagram](./Profiles/tartarus%20v2/Star%20Citizen%20Razer%20Tartarus.png)
+
 ### Dual-LogiExtrm
   * [Dual-LogiExtrm_exported.xml](https://raw.githubusercontent.com/Chadarius/sc-config/main/Profiles/Dual-LogiExtrm/Dual-LogiExtrm_exported.xml)
   * Star Citizen Console command:
@@ -57,9 +69,3 @@ Contains Folders with Star Citizen profiles, Joystick Gremlin profiles, and joys
   ![x55-x56-LogiExtrm - 2](https://github.com/Chadarius/sc-config/blob/main/Profiles/x55-x56-LogiExtrm/x55-x56-LogiExtrm%20-%202.png?raw=true)
   ![x55-x56-LogiExtrm - 3](https://github.com/Chadarius/sc-config/blob/main/Profiles/x55-x56-LogiExtrm/x55-x56-LogiExtrm%20-%203.png?raw=true)
 
-### Dual VKB (Right Premium and Left Omnithrottle)
-  * [dual-vkb_exported.xml](https://raw.githubusercontent.com/Chadarius/sc-config/main/Profiles/dual-vkb/dual-vkb_exported.xml)
-  * Star Citizen Console command:
-    * pp_rebindkeys dual-vkb_exported.xml
-  * [dual-vkb_joystick-gremlin.xml](https://raw.githubusercontent.com/Chadarius/sc-config/main/Profiles/dual-vkb/dual-vkb_joystick_gremlin.xml)
-  ![dual-vkb](https://github.com/Chadarius/sc-config/blob/main/Profiles/dual-vkb/dual-vkb.png?raw=true)
