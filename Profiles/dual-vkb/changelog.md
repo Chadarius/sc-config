@@ -1,5 +1,13 @@
 # Change log
-## 20230323
+## 20240426
+### Razor Tartarus v2
+- Added bindings 
+- Added chroma settings
+- Added diagram
+### Joystick Gremlin VKB Axes Fix
+- Fixed axis that needed to be inverted. Joystick Gremlin profile for dual VKB sticks no longer needs anything "inverted" in the Star Citizen keybindings. 
+
+## 20240323
 ### Joystick Gremlin Axes
 Under controls in Star Citizen, set all Inversion Settings to "no"
 - Inverted speed limiter (right Z axis) in Gremlin

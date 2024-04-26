@@ -106,7 +106,7 @@
                         </action-set>
                     </container>
                 </axis>
-                <axis description="Speed limiter" id="3">
+                <axis description="Speed limiter(inverted)" id="3">
                     <container type="basic">
                         <action-set>
                             <remap axis="3" axis-scaling="1.0" axis-type="absolute" vjoy="1"/>
@@ -890,7 +890,7 @@
                         </action-set>
                     </container>
                 </axis>
-                <axis description="Throttle Forward/Backward" id="2">
+                <axis description="Throttle Forward/Backward (inverted)" id="2">
                     <container type="basic">
                         <action-set>
                             <remap axis="2" axis-scaling="1.0" axis-type="absolute" vjoy="2"/>
@@ -909,14 +909,14 @@
                         </action-set>
                     </container>
                 </axis>
-                <axis description="Throttle forward" id="3">
+                <axis description="Throttle forward (Inverted)" id="3">
                     <container type="basic">
                         <action-set>
                             <remap axis="3" axis-scaling="1.0" axis-type="absolute" vjoy="2"/>
                             <response-curve>
                                 <mapping type="cubic-spline">
-                                    <control-point x="-1.0" y="-1.0"/>
-                                    <control-point x="1.0" y="1.0"/>
+                                    <control-point x="-1.0" y="1.0"/>
+                                    <control-point x="1.0" y="-1.0"/>
                                 </mapping>
                                 <deadzone center-high="0.0" center-low="0.0" high="1.0" low="-1.0"/>
                             </response-curve>
@@ -961,7 +961,7 @@
                         </action-set>
                     </container>
                 </axis>
-                <axis description="Strafe Up/Down" id="6">
+                <axis description="Strafe Up/Down (Inverted)" id="6">
                     <container type="basic">
                         <action-set>
                             <remap axis="6" axis-scaling="1.0" axis-type="absolute" vjoy="2"/>
