@@ -1,4 +1,4 @@
-# Dual-VKB - 3.22.0a
+# Dual-VKB - 3.23
 Star Citizen Joystick Profile for dual VKB sticks (Right Gladiator NXT Premium and Left Gladiator EVO Omni Throttle). This is the ultimate controller setup for Star Citizen for the price, as far as I'm concerned. I somehow managed to get the right and left sticks on eBay for $165 and $163 respectively. It tooks months of checking before that happened. There are not a lot of people selling their VKB sticks. That should tell us something. The right-hand NXT Premium stick came with all the accessories. The left hand Omni Throttle didn't come with anything other than the USB cable. But I saved at least $80 on shipping by getting them used.  
 
 For a record of changes please see the [changelog](./changelog.md)

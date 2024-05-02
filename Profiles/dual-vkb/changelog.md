@@ -1,4 +1,9 @@
 # Change log
+## 20240502
+### Dual-VKB
+- Updated keybind from scratch for 3.23. 
+### Tartarus v2
+- Updated the thumb hat due to changes in 3.23
 ## 20240426
 ### Razor Tartarus v2
 - Added bindings 
