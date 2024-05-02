@@ -30,22 +30,23 @@
 #### Game Settings
   * Show Hints – No
   * Control Hints - No
-  * Flight – Gsafe – Defaults On – No
-  * Fligth – Gsafe – Disable When Boosting - No
+  * Flight – Gsafe – Defaults On – No (Removed in 3.23)
+  * Fligth – Gsafe – Disable When Boosting - Yes
   * Flight – Proximity Assist Defaults On – No 
-  * Pilot - E.S.P. Zone Size – 8
-  * Pilot - E.S.P. Damping Curvature – 1.30
+  * Pilot - E.S.P. - Strength – 1.0 (3.23 was .8?)
+  * Pilot - E.S.P. Damping Curvature – 1.30 (Removed in 3.23)
   * Pilot – Velocity Indicator – Always On
   * Guns - Fallback Convergence Distance (meters) - 100
   * Vehicles - Spaceship - Weapons - Gimbal Mode - Default - Fixed
   * Vehicles - Ground - Weapons - Gimbal Mode - Default - Fixed
+  * Vehicles - Targeting - Enable Crosshair Animation - No (new in 3.23)
   * Vehicles - Targeting - Enable Auto Zoom On Locked Target - No
   * Pilot – Look Ahead – Enabled – No 
   * Driver – Look Ahead – Enabled - No
   * Turret – Look Ahead – Enabled – No 
-  * G-force Induced Head Movement – 0
+  * G-force Induced Head Movement – .25
   * G-Force Induced Afterburner Zoom – 0
-  * Global Camera Shake – 0
+  * Global Camera Shake – .25
   * Show Friendly Contact Nameplate – Yes
   * Show Neutral/Hostile Contact Nameplate – Yes
   * Show Contact Distance – Yes
