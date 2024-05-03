@@ -34,7 +34,8 @@ In Star Citizen, open the console and cut and paste the following command:
 pp_rebindkeys dual-vkb_exported.xml
 
 ### Joystick Layout
-Here is a [PDF of the dual-vkb](./dual-vkb.pdf). I designed it with LibreOffice Draw. The original file is available in the repo as dual-vkb.odg. There is also a PNG at 150 dpi. 
+This [layout was created with GIMP](./dual-vkb.xcf). It is easy to edit and create your own layout. 
+![dual-vkb](https://github.com/Chadarius/sc-config/blob/main/Profiles/dual-vkb/dual-vkb.png?raw=true)
 
 
 
