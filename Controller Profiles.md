@@ -38,14 +38,14 @@ Contains Folders with Star Citizen profiles, Joystick Gremlin profiles, and joys
 * [Razor Chroma Effects profile](./Profiles/tartarus%20v2/tartarus-star_citizen.ChromaEffects)
 ![Tartarus v2 Diagram](./Profiles/tartarus%20v2/Star%20Citizen%20Razer%20Tartarus.png)
 
-### Dual-LogiExtrm
+### Dual-LogiExtrm (Out of Date)
   * [Dual-LogiExtrm_exported.xml](https://raw.githubusercontent.com/Chadarius/sc-config/main/Profiles/Dual-LogiExtrm/Dual-LogiExtrm_exported.xml)
   * Star Citizen Console command:
     * pp_rebindkeys Dual-LogiExtrm_exported.xml
   * [Dual-LogiExtrm_joystick-gremlin.xml](https://raw.githubusercontent.com/Chadarius/sc-config/main/Profiles/Dual-LogiExtrm/Dual-LogiExtrm_joystick-gremlin.xml)
 ![Dual-LogiExtrm](https://raw.githubusercontent.com/Chadarius/sc-config/main/Profiles/Dual-LogiExtrm/Dual-LogiExtrm_layout.png)
 
-### DualLogiExtrm-X56-Thrtl
+### DualLogiExtrm-X56-Thrtl (Out of Date)
   * [DualLogiExtrm-X56-Thrtl_exported.xml](https://raw.githubusercontent.com/Chadarius/sc-config/main/Profiles/DualLogiExtrm-X56-Thrtl/DualLogiExtrm-X56-Thrtl_exported.xml)
   * Star Citizen Console command:
     * pp_rebindkeys DualLogiExtrm-X56-Thrtl_exported.xml
@@ -53,14 +53,14 @@ Contains Folders with Star Citizen profiles, Joystick Gremlin profiles, and joys
   ![DualLogiExtrm-X56-Thrtl - 1](https://raw.githubusercontent.com/Chadarius/sc-config/main/Profiles/DualLogiExtrm-X56-Thrtl/DualLogiExtrm-X56-Thrtl%20-%201.png)
   ![DualLogiExtrm-X56-Thrtl - 2](https://raw.githubusercontent.com/Chadarius/sc-config/main/Profiles/DualLogiExtrm-X56-Thrtl/DualLogiExtrm-X56-Thrtl%20-%202.png)
 
-### LogiExtrm
+### LogiExtrm (Outoof Date)
   * [LogiExtrm_exported.xml](https://raw.githubusercontent.com/Chadarius/sc-config/main/Profiles/LogiExtrm/LogiExtrm_exported.xml)
   * Star Citizen Console command:
     * pp_rebindkeys LogiExtrm_exported.xml
   * [LogiExtrm_joystick-gremlin.xml](https://raw.githubusercontent.com/Chadarius/sc-config/main/Profiles/LogiExtrm/LogiExtrm_joystick-gremlin.xml)
   ![LogiExtrm - 1](https://github.com/Chadarius/sc-config/blob/main/Profiles/LogiExtrm/LogiExtrm%20-%201.png?raw=true)
 
-### x55-x56-LogiExtrm
+### x55-x56-LogiExtrm (Out of Date)
   * [x55-x56-LogiExtrm_exported.xml](https://raw.githubusercontent.com/Chadarius/sc-config/main/Profiles/x55-x56-LogiExtrm/x55-x56-LogiExtrm_exported.xml)
   * Star Citizen Console command:
     * pp_rebindkeys x55-x56-LogiExtrm_exported.xml
