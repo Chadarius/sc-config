@@ -1,4 +1,15 @@
 # Change log
+## 20241018
+- Changed the order of the weapons, engines, shields toggle buttons to match how they appear on the MFD
+- Power Hat has changes. Hold up sets all power to minimum. Left sets weapons to max, down sets engines to max, right sets shields to max.
+- Changed Shields management bindings to use shift
+- Added MFD selection binds
+- Changed the main trigger to use whatever weapon group is selected. 
+- Added weapons group select
+
+## 20240712
+### Dual-VKB
+- Updated keybinds for HCS VoicePacks for Max power settings
 ## 20240502
 ### Dual-VKB
 - Updated keybind from scratch for 3.23. 
