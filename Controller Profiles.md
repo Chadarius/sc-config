@@ -31,7 +31,7 @@ Contains Folders with Star Citizen profiles, Joystick Gremlin profiles, and joys
   * Star Citizen Console command:
     * pp_rebindkeys dual-vkb_exported.xml
   * [dual-vkb_joystick-gremlin.xml](https://raw.githubusercontent.com/Chadarius/sc-config/main/Profiles/dual-vkb/dual-vkb_joystick_gremlin.xml)
-  ![dual-vkb](https://github.com/Chadarius/sc-config/blob/main/Profiles/dual-vkb/dual-vkb.png?raw=true)
+  ![dual-vkb](./Profiles/dual-vkb/dual-vkb.png)
 
 ### Razor Tartarus v2
 * [Razor Synapse Profile](./Profiles/tartarus%20v2/tartarus-star_citizen.synapse4)
