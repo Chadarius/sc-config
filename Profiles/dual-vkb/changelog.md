@@ -1,4 +1,7 @@
 # Change log
+## 20250922
+- CIG added additional decoupled mode binds. Button 12 (left stick) now enables coupled mode and the same button shifted (button 42) disables coupled mode.
+
 ## 20241018
 - Changed the order of the weapons, engines, shields toggle buttons to match how they appear on the MFD
 - Power Hat has changes. Hold up sets all power to minimum. Left sets weapons to max, down sets engines to max, right sets shields to max.
