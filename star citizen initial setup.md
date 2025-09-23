@@ -30,10 +30,16 @@
 #### Game Settings
   * Show Hints – No
   * Control Hints - No
+  * Ship Entry Labels Enabled - No
   * Defaults - Flight Automatic Slowdown On - No
   * Defaults - Flight – Gsafe – Defaults On – No (Removed in 3.23)
   * Defaults - Fligth – Gsafe – Disable When Boosting - Yes
   * Defaults - Flight – Proximity Assist Defaults On – No 
+  * Defaults - HUD - Advanced HUD on in SCM
+  * Defaults - HUD - Advanced HUD on in NAV
+  * Defaults - HUD - Advanced HUD prefers labels
+  * Defaults - HUD - Course prediction On
+  * Defaults - Lights Enabled - Yes
   * Pilot - E.S.P. - Strength – 1.0 (3.23 was .8?)
   * Pilot - E.S.P. Damping Curvature – 1.0 (Removed in 3.23)
   * Pilot – Velocity Indicator – Always On
