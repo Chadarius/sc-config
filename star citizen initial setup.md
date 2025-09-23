@@ -30,13 +30,16 @@
 #### Game Settings
   * Show Hints – No
   * Control Hints - No
-  * Flight – Gsafe – Defaults On – No (Removed in 3.23)
-  * Fligth – Gsafe – Disable When Boosting - Yes
-  * Flight – Proximity Assist Defaults On – No 
+  * Defaults - Flight Automatic Slowdown On - No
+  * Defaults - Flight – Gsafe – Defaults On – No (Removed in 3.23)
+  * Defaults - Fligth – Gsafe – Disable When Boosting - Yes
+  * Defaults - Flight – Proximity Assist Defaults On – No 
   * Pilot - E.S.P. - Strength – 1.0 (3.23 was .8?)
-  * Pilot - E.S.P. Damping Curvature – 1.30 (Removed in 3.23)
+  * Pilot - E.S.P. Damping Curvature – 1.0 (Removed in 3.23)
   * Pilot – Velocity Indicator – Always On
   * Guns - Fallback Convergence Distance (meters) - 100
+  * Defaults - Weapons - Precision Lines On - Yes
+  * Defaults - Weapons - Fading PiPs On - No
   * Vehicles - Spaceship - Weapons - Gimbal Mode - Default - Fixed
   * Vehicles - Ground - Weapons - Gimbal Mode - Default - Fixed
   * Vehicles - Targeting - Enable Crosshair Animation - No (new in 3.23)
