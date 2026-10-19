@@ -1,4 +1,10 @@
 # Change log
+## 20261019 - Dual VKB
+- Added Staggered and Unstaggered
+- Added Salvaging Mode Toggle Fire Fracture
+- Added Salvaging Mode Toggle Fire Disintegrate
+- Updated diagram to more easily print on two 8.5 x 11 pages without cutting off text and graphics. 
+
 ## 20250922
 - CIG added additional decoupled mode binds. Button 12 (left stick) now enables coupled mode and the same button shifted (button 42) disables coupled mode.
 
