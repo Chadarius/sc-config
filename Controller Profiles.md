@@ -1,6 +1,6 @@
 # Controller Profiles
 ## Joystick Gremlin
-These configs require the use of Joystick Gremlin. Follow the instructions from the [Joystick Gremlin website here](https://whitemagic.github.io/JoystickGremlin/quickstart/). Make sure you install vJoy as instructed and create the virtual joysticks you will need. I only use two virtual joysticks in my Joystick Gremlin profiles below. So you need to create a minimum of two. 
+These configs require the use of Joystick Gremlin. Follow the instructions from the [Joystick Gremlin website here](https://whitemagic.github.io/JoystickGremlin/quickstart). Make sure you install vJoy as instructed and create the virtual joysticks you will need. I only use two virtual joysticks in my Joystick Gremlin profiles below. So you need to create a minimum of two. 
 
 ### HIDHide
 It is also very important that you [download, install and configure HIDHide](https://github.com/ViGEm/HidHide).This app blocks other apps from seeing your real joysticks and only allows them to see the virtual joysticks from vJoy and Joystick Gremlin. 
