@@ -5,6 +5,7 @@
 - Added Salvaging Mode Toggle Fire Disintegrate
 - Updated diagram to more easily print on two 8.5 x 11 pages without cutting off text and graphics. 
 - Fixed Joystick Gremlin URL
+- Updated profile to support version 16 of Joystick Gremlin
 
 ## 20250922
 - CIG added additional decoupled mode binds. Button 12 (left stick) now enables coupled mode and the same button shifted (button 42) disables coupled mode.
